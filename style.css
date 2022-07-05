@@ -15,6 +15,8 @@ Fonts - Poppins , Lobster
 }
 h1{
     font-size: 40px;
+    color:#121212;
+    margin-bottom: 10px;
 }
 h2 {
     font-size:24px;
@@ -23,6 +25,7 @@ p{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     padding:15px 0 25px;
+    color:#707070;
 }
 .text-center{
     text-align:center
@@ -73,6 +76,12 @@ p{
     letter-spacing: 1px;
     
 }
+
+.section-heading{
+    margin: 0 20%;
+    margin-bottom:30px;
+    text-align:center;
+}
 /**/
 
 #donation-box{
@@ -86,7 +95,7 @@ p{
     justify-content: center;
     width:120px;
     height:120px;
-    background-color:#f2f7f2;
+    background-color:#fafafa;
     margin:0 10px;
     font-size:30px;
     font-family: 'inter', sans-serif;
@@ -95,7 +104,7 @@ p{
     color:#707070;
 }
 .m-card:hover{
-    background-color: #f9664d66;
+    background-color: #ffeeee;
     border:3px solid tomato;
     cursor: pointer;
     width:117px;
@@ -105,7 +114,7 @@ p{
 .m-card.active{
     width:117px;
     height:117px;
-    background-color: #f9664d66;
+    background-color: #ffeeee;
     border:3px solid tomato;
     cursor: pointer;
     
@@ -126,6 +135,8 @@ p{
     min-height: 40px;
     outline: none;
     font-size: 30px;
+    color:#707070;
+    font-weight: 700;
 
 }
 
@@ -135,22 +146,31 @@ p{
 .donation-form input::placeholder{
     font-size: 16px;
     color:#ddd;
+    font-weight: normal;
 
 }
 
 .plan-card{
     width:350px;
     margin:20px;
-    padding:30px 20px 10px 30px;
-    background-color: #f2f7f2;
+    padding:50px 20px 10px 50px;
     border-radius: 5px;
     
 }
+.bg-green{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.bg-red{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.bg-yellow{
+    background-color: #FFF4D6;
+}
 .plan-card img{
-    margin-bottom:30px;
+    margin-bottom:25px;
 }
 .plan-card h2 {
-    margin-bottom:35px;
+    margin-bottom:30px;
 }
 
 
@@ -158,14 +178,14 @@ p{
     margin-bottom: 100px;
 }
 .email-form{
-    background-color: #e8cdab;
+    background-color: #FFF4D6;
     padding:60px;
 }
 .email-form input{
     width:260px;
     padding:15px;
     border:none;
-    background-color: #eeeaea;
+    background-color: #d9d9d9;
     outline: none;
     font-weight: bold;
 }
@@ -176,6 +196,16 @@ p{
     background-color: tomato;
     border-radius: 0px 5px 5px 0;
     cursor: pointer;
+}
+
+footer{
+    padding-top:30px;
+    background-color: rgb(3, 3, 32);
+    color:white;
+    text-align: center;
+}
+footer h1{
+    color:tomato;
 }
 
 
