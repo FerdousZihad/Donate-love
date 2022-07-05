@@ -1,13 +1,6 @@
-/* Colors 
-#FFF4D6
-#121212
-#707070
-#FF5959
-
-Fonts - Poppins , Lobster
-
-*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700;800;900&family=Poppins&display=swap');
+
+/** Basic CSS  Start ****/
 *{
     margin:0;
     padding:0;
@@ -50,7 +43,9 @@ p{
     display:flex;
     justify-content: center;
 }
-/*Styling Header Part */
+/** Basic CSS End************/
+
+/*Styling Header Part - Start*/
 #top-banner{
     padding:250px 0;
     background-image: url('image/cover.png');
@@ -82,7 +77,9 @@ p{
     margin-bottom:30px;
     text-align:center;
 }
-/**/
+/** HEader CSS End************/
+
+/** Donation CSS Start****/
 
 #donation-box{
     padding:100px 0;
@@ -140,6 +137,10 @@ p{
 
 }
 
+/** Donation CSS End************/
+
+/** Donate plan CSS Start*****/
+
 #donate-plan{
     margin-bottom: 100px;
 }
@@ -153,7 +154,7 @@ p{
 .plan-card{
     width:350px;
     margin:20px;
-    padding:50px 20px 10px 50px;
+    padding:50px 50px 20px 20px;
     border-radius: 5px;
     
 }
@@ -173,7 +174,9 @@ p{
     margin-bottom:30px;
 }
 
+/** Donate plan CSS End************/
 
+/** Newsletter CSS Start******/
 #newsletter{
     margin-bottom: 100px;
 }
@@ -197,6 +200,8 @@ p{
     border-radius: 0px 5px 5px 0;
     cursor: pointer;
 }
+
+/** Newsletter CSS End ******/
 
 footer{
     padding-top:30px;
