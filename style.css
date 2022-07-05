@@ -154,6 +154,31 @@ p{
 }
 
 
+#newsletter{
+    margin-bottom: 100px;
+}
+.email-form{
+    background-color: #e8cdab;
+    padding:60px;
+}
+.email-form input{
+    width:260px;
+    padding:15px;
+    border:none;
+    background-color: #eeeaea;
+    outline: none;
+    font-weight: bold;
+}
+.email-form button{
+    border:none;
+    color:#fff;
+    padding:15px 40px;
+    background-color: tomato;
+    border-radius: 0px 5px 5px 0;
+    cursor: pointer;
+}
+
+
 
 
 
