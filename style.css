@@ -86,12 +86,12 @@ p{
     justify-content: center;
     width:120px;
     height:120px;
-    background-color:#ddd;
-    margin:0 20px;
+    background-color:#f2f7f2;
+    margin:0 10px;
     font-size:30px;
     font-family: 'inter', sans-serif;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 5px;
     color:#707070;
 }
 .m-card:hover{
@@ -125,13 +125,32 @@ p{
     text-align: center;
     min-height: 40px;
     outline: none;
-    
+    font-size: 30px;
 
+}
+
+#donate-plan{
+    margin-bottom: 100px;
 }
 .donation-form input::placeholder{
     font-size: 16px;
     color:#ddd;
 
+}
+
+.plan-card{
+    width:350px;
+    margin:20px;
+    padding:30px 20px 10px 30px;
+    background-color: #f2f7f2;
+    border-radius: 5px;
+    
+}
+.plan-card img{
+    margin-bottom:30px;
+}
+.plan-card h2 {
+    margin-bottom:35px;
 }
 
 
