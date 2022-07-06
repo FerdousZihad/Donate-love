@@ -231,7 +231,7 @@ p{
 
 #projects{
     padding: 60px 0;
-    background-image: url('image/testimonibg.png');
+    /* background-image: url('image/testimonibg.png'); */
     background-repeat:repeat-x;
     background-size: contain;
     background-attachment: fixed;
