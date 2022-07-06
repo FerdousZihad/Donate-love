@@ -187,10 +187,10 @@ p{
     margin-bottom: 100px;
 }
 .donation-form input::placeholder{
-    font-size: 16px;
+    font-size: 18px;
     color:#ddd;
     font-weight: normal;
-
+    font-family:'Poppins', sans-serif;
 }
 
 .plan-card{
@@ -274,7 +274,8 @@ p{
     border:none;
     background-color: #d9d9d9;
     outline: none;
-    font-weight: bold;
+    border-radius: 5px 0px 0px 5px;
+    
     font-size: 16px;
 }
 .email-form button{
@@ -285,7 +286,7 @@ p{
     border-radius: 0px 5px 5px 0;
     cursor: pointer;
     font-size: 16px;
-    font-weight: bold;
+    
 }
 
 
