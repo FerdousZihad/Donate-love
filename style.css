@@ -6,22 +6,36 @@
     padding:0;
     font-family: 'Inter', sans-serif;
 }
+
 h1{
     font-size: 42px;
     color:#121212;
     margin-bottom: 10px;
 }
+
 h2 {
+    color:#121212;
     font-size:28px;
 }
+
+h3 {
+    color:#121212;
+    font-size:24px;
+
+}
+
 p{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     padding:15px 0 25px;
     color:#707070;
 }
+
 .text-center{
     text-align:center
+}
+.text-justify{
+    text-align:justify;
 }
 
 .margin-10{
@@ -208,6 +222,31 @@ p{
 
 .blog-item{
     margin-bottom:100px;
+}
+
+/**  **/
+
+#projects{
+    padding: 60px 0;
+    background-image: url('image/testimonibg.png');
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+.project-item{
+    margin:20px;
+    width:380px;
+    box-shadow:0 5px 23px rgb(183, 181, 181);
+    
+}
+.project-item .top-image img{
+    width:100%;
+    border-radius:5px 5px 0 0;
+    vertical-align: middle;
+}
+
+.project-item .project-body{
+    padding:30px 20px;
+    background-color: #fff;
 }
 
 
