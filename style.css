@@ -120,6 +120,7 @@ p{
 }
 /** HEader CSS End************/
 
+
 /** Donation CSS Start****/
 
 #donation-box{
@@ -177,7 +178,6 @@ p{
     font-weight: 700;
 
 }
-
 /** Donation CSS End************/
 
 /** Donate plan CSS Start*****/
@@ -214,8 +214,9 @@ p{
 .plan-card h2 {
     margin-bottom:30px;
 }
-
 /** Donate plan CSS End************/
+
+/** Blog section CSS Start*******/
 #blog{
     margin:10%;
 }
@@ -224,17 +225,20 @@ p{
     margin-bottom:100px;
 }
 
-/**  **/
+/** Blog section CSS End*******/
+
+/** Project Section CSS Start **/
 
 #projects{
     padding: 60px 0;
     background-image: url('image/testimonibg.png');
     background-repeat:repeat-x;
     background-size: contain;
+    background-attachment: fixed;
 }
 .project-item{
     margin:20px;
-    width:380px;
+    width:390px;
     box-shadow:0 5px 23px rgb(183, 181, 181);
     
 }
@@ -245,14 +249,18 @@ p{
 }
 
 .project-item .project-body{
-    padding:30px 20px;
+    padding:30px 30px 20px 20px;
     background-color: #fff;
+    opacity: .9;
 }
+
+/** Project Section CSS End ********/
 
 
 
 /** Newsletter CSS Start******/
 #newsletter{
+    margin-top: 60px;
     margin-bottom: 100px;
 }
 .email-form{
